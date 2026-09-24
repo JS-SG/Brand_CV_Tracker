@@ -1,0 +1,7 @@
+# YOLO Dataset Configuration for CHASE Court Logo Detection
+path: ../dataset
+train: images/train
+val: images/val
+
+names:
+  0: chase_court_logo

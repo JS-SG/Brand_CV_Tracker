@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Datasets and raw media
+data/*.mp4
+dataset/extracted_raw_frames/*.jpg
+dataset/images/train/*.jpg
+dataset/images/val/*.jpg
+dataset/labels/train/*.txt
+dataset/labels/val/*.txt
+dataset/labels/*.cache
+dataset_statefarm/images/train/*.jpg
+dataset_statefarm/images/val/*.jpg
+dataset_statefarm/labels/raw/*.txt
+dataset_statefarm/labels/train/*.txt
+dataset_statefarm/labels/val/*.txt
+dataset_statefarm/images/train/*.jpg
+dataset_statefarm/raw/*.jpg
+dataset_statefarm/labels/*.cache
+
+# Model weights and checkpoints
+models/*.pth
+models/*.onnx
+
+
+# Outputs and runs
+output/
+runs/
+*.log
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

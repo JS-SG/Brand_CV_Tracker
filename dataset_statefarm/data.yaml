@@ -1,0 +1,6 @@
+path: C:/Users/rajag/Desktop/Frame_Tracker_Dual/dataset_statefarm
+train: images/train
+val: images/val
+
+names:
+  0: statefarm_right_basket_logo
